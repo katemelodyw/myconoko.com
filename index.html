@@ -194,33 +194,49 @@
 					</section>
 				</div>
 
-			<!-- Footer -->
-				<div id="footer-wrapper">
-					<div id="footer" class="container">
-						<header class="major">
-							<h2>Contact Us</h2>
-						</header>
-						<div class="row">
-							<section class="col-6 col-12-narrower">
-								<form method="post" action="#">
-									<div class="row gtr-50">
-										<div class="col-6 col-12-mobile">
-											<input name="name" placeholder="Name" type="text" />
-										</div>
-										<div class="col-6 col-12-mobile">
-											<input name="email" placeholder="Email" type="text" />
-										</div>
-										<div class="col-12">
-											<textarea name="message" placeholder="Message"></textarea>
-										</div>
-										<div class="col-12">
-											<ul class="actions">
-												<li><input type="submit" value="Send Message" /></li>
-												<li><input type="reset" value="Clear form" /></li>
-											</ul>
-										</div>
-									</div>
-								</form>
+		<!-- Footer -->
+<div id="footer-wrapper">
+	<div id="footer" class="container">
+		<header class="major">
+			<h2>Contact Us</h2>
+			<p>Have a question about Myconoko? Send us a message.</p>
+		</header>
+
+		<div class="row">
+			<section class="col-6 col-12-narrower">
+				<form action="https://formspree.io/f/mwvrvlgn" method="POST">
+					<div class="row gtr-50">
+						<div class="col-6 col-12-mobile">
+							<input name="name" placeholder="Name" type="text" required />
+						</div>
+						<div class="col-6 col-12-mobile">
+							<input name="email" placeholder="Email" type="email" required />
+						</div>
+						<div class="col-12">
+							<input name="subject" placeholder="Subject" type="text" />
+						</div>
+						<div class="col-12">
+							<textarea name="message" placeholder="Message" required></textarea>
+						</div>
+
+						<!-- Optional: email subject format -->
+						<input type="hidden" name="_subject" value="New website enquiry from Myconoko.com" />
+
+						<div class="col-12">
+							<ul class="actions">
+								<li><input type="submit" value="Send Message" /></li>
+								<li><input type="reset" value="Clear Form" /></li>
+							</ul>
+						</div>
+					</div>
+				</form>
+			</section>
+		</div>
+	</div>
+</div>
+				</form>
+
+								
 							</section>
 							<section class="col-6 col-12-narrower">
 								<div class="row gtr-0">
@@ -258,6 +274,7 @@
 	</body>
 
 </html>
+
 
 
 
