@@ -2132,93 +2132,94 @@ input, select, textarea {
 
 /* Header */
 
-	#logo {
+	/* ===== CLEAN HEADER FIX ===== */
+
+#logo {
 	position: absolute;
 	z-index: 2;
-	top: 0;
+	top: 0.4em;                 /* slight spacing from top */
 	left: 50%;
 	transform: translateX(-50%);
-	width: auto;
-	margin-left: 0;
 }
 
 #logo a {
 	display: inline-block;
-	min-width: 11em;
-	height: 3.2em;
-	line-height: 3.2em;
-	padding: 0 1.25em;
+	padding: 0.4em 1.2em;      /* 🔽 smaller box */
+	height: auto;
+	line-height: 1.4em;        /* 🔽 prevents tall box */
+	min-width: auto;
+
 	background: rgba(255, 255, 255, 0.15);
 	border: solid 1px rgba(255, 255, 255, 0.75);
 	border-top: 0;
 	border-radius: 0 0 0.35em 0.35em;
+
 	color: #fff;
 	font-weight: 700;
-	letter-spacing: 2px;
+	letter-spacing: 1.5px;     /* 🔽 tighter text */
 	text-align: center;
 	text-transform: uppercase;
-	font-size: 0.95em;
+	font-size: 0.9em;
 	white-space: nowrap;
 }
+
+/* NAV BAR */
 
 #nav {
 	position: relative;
 	width: 100%;
-	height: auto;
-	line-height: normal;
 	text-align: center;
-	padding-top: 4.6em;
+	padding-top: 3em;          /* space below logo */
 }
+
+/* CENTER NAV ITEMS PROPERLY */
 
 #nav > ul {
 	margin: 0;
 	padding: 0;
 	list-style: none;
+
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	flex-wrap: wrap;
-	gap: 1.5em;
+	gap: 2em;
 }
 
 #nav > ul > li {
 	display: block;
-	margin-left: 0;
+	margin: 0;
 }
 
-#nav > ul > li > ul {
-	display: none;
+/* REMOVE OLD HACK */
+
+#nav > ul > li.break {
+	margin-left: 0 !important;
 }
+
+/* NAV LINKS */
 
 #nav > ul > li > span,
 #nav > ul > li > a {
 	display: inline-block;
 	color: #fff;
 	text-decoration: none;
-	outline: 0;
-	border: solid 1px rgba(255, 255, 255, 0);
 	border-radius: 0.35em;
-	padding: 0.3em 1em;
-	-moz-transition: border-color 0.25s ease-in-out, background-color 0.25s ease-in-out;
-	-webkit-transition: border-color 0.25s ease-in-out, background-color 0.25s ease-in-out;
-	-o-transition: border-color 0.25s ease-in-out, background-color 0.25s ease-in-out;
-	-ms-transition: border-color 0.25s ease-in-out, background-color 0.25s ease-in-out;
-	transition: border-color 0.25s ease-in-out, background-color 0.25s ease-in-out;
+	padding: 0.3em 0.8em;
+
+	transition: border-color 0.25s ease-in-out,
+	            background-color 0.25s ease-in-out;
 }
 
 #nav > ul > li.active > span,
 #nav > ul > li.active > a {
-	border-color: rgba(255, 255, 255, 0.75);
+	border: 1px solid rgba(255, 255, 255, 0.75);
 	background-color: rgba(255, 255, 255, 0.15);
-	color: #fff;
 }
 
-#nav > ul > li:first-child {
-	margin-left: 0;
-}
+/* HERO TEXT SAFETY (prevents overlap below) */
 
-#nav > ul > li.break {
-	margin-left: 0 !important;
+#hero {
+	padding-top: 2em;          /* pushes "Myconoko HK" down */
 }
 	.dropotron {
 		text-align: left;
