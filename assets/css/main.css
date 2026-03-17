@@ -3410,4 +3410,20 @@ form textarea {
 	}
 }
 
+/* TRUE centered nav (no break hack) */
+
+#nav > ul {
+	display: flex;
+	justify-content: center;
+	gap: 2em;
+}
+
+#nav > ul > li {
+	margin-left: 0 !important;
+}
+
+#nav > ul > li.break {
+	margin-left: 0 !important;
+}
+
 
