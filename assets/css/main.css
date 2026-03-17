@@ -6180,3 +6180,43 @@ input, select, textarea {
 			}
 
 	}
+
+html, body,
+input, textarea, select, button,
+h1, h2, h3, h4, h5, h6,
+.button {
+	font-family: 'Inter', sans-serif !important;
+}
+
+body {
+	font-weight: 500 !important;
+	color: #4c5258 !important;
+	line-height: 1.8em !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 600 !important;
+	color: #3f454b !important;
+	letter-spacing: -0.02em !important;
+}
+
+#hero h2 {
+	font-weight: 700 !important;
+	letter-spacing: -0.03em !important;
+}
+
+strong, b {
+	font-weight: 600 !important;
+}
+
+.button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+button {
+	font-weight: 500 !important;
+}
+
+.container {
+	width: 1360px !important;
+}
