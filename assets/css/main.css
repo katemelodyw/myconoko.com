@@ -6189,7 +6189,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 body {
-	font-weight: 400 !important;
+	font-weight: 300 !important;
 	color: #4c5258 !important;
 	line-height: 1.7em !important;
 	font-size: 15px !important;   /* smaller base text */
@@ -6197,7 +6197,7 @@ body {
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-	font-weight: 600 !important;
+	font-weight: 500 !important;
 	color: #3f454b !important;
 	letter-spacing: -0.01em !important;
 }
@@ -6234,7 +6234,11 @@ button {
 /* Container (MOST IMPORTANT FIX) */
 .container {
 	width: 100% !important;
-	max-width: 1000px !important;   /* was 1360px → too wide */
+	max-width: 900px !important;   /* was 1360px → too wide */
 	margin: 0 auto !important;
 	padding: 0 20px;               /* breathing space */
+}
+
+section {
+	text-align: center;
 }
