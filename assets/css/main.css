@@ -105,8 +105,8 @@ input, select, textarea {
 
 	body {
 		background: #f5f7fa;
-		font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 400 !important;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
 		color: #52575c;
 		line-height: 1.75em;
 		font-size: 14pt;
