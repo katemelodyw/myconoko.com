@@ -6254,3 +6254,114 @@ h3 {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+/* =========================================
+   MYCONOKO CLEAN TYPOGRAPHY + LAYOUT FIX
+   ========================================= */
+
+/* Font */
+html, body,
+input, textarea, select, button,
+.button {
+	font-family: 'Inter', sans-serif !important;
+}
+
+/* Base text (smaller + cleaner) */
+body {
+	font-weight: 400 !important;
+	color: #4c5258 !important;
+	line-height: 1.7em !important;
+	font-size: 15px !important;
+}
+
+/* Headings (less aggressive) */
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Inter', sans-serif !important;
+	font-weight: 600 !important;
+	color: #3f454b !important;
+	letter-spacing: -0.01em !important;
+}
+
+/* Better sizing */
+h1 { font-size: 2.2em !important; }
+h2 { font-size: 1.9em !important; }
+h3 { font-size: 1.3em !important; }
+
+/* Hero stays large */
+#hero h2 {
+	color: #fff !important;
+	font-size: 2.6em !important;
+	font-weight: 700 !important;
+	letter-spacing: -0.02em !important;
+}
+
+#hero p {
+	font-size: 1.3em !important;
+}
+
+/* IMPORTANT: Keep site width normal */
+.container {
+	width: 1100px !important;
+	max-width: 95% !important;
+}
+
+/* =========================================
+   FIX TEXT TOO WIDE (ONLY ARTICLES)
+   ========================================= */
+
+/* Only narrow long-form content */
+#main article p,
+#main article h2,
+#main article h3,
+#main article ul,
+#main article ol {
+	max-width: 720px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* =========================================
+   KEEP CARDS / FEATURES NORMAL
+   ========================================= */
+
+.row.features p,
+.row.features h3,
+.row.features .actions,
+.feature p,
+.feature h3 {
+	max-width: none !important;
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+
+/* =========================================
+   FIX IMAGES
+   ========================================= */
+
+.image img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+/* =========================================
+   BUTTONS
+   ========================================= */
+
+.button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+button {
+	font-weight: 500 !important;
+	font-size: 0.9em !important;
+	padding: 0.7em 1.6em !important;
+}
+
+/* =========================================
+   REMOVE ANY WEIRD GLOBAL CENTERING
+   ========================================= */
+
+section {
+	text-align: inherit !important;
+}
