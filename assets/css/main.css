@@ -3423,5 +3423,23 @@ form textarea {
 	}
 }
 
+@media screen and (max-width: 736px) {
+	#logo {
+		position: relative !important;
+		top: 0 !important;
+		left: 0 !important;
+		transform: none !important;
+		margin: 0 auto 1em auto !important;
+		width: 100% !important;
+		text-align: center !important;
+	}
+
+	#logo a {
+		display: inline-block !important;
+		width: auto !important;
+		max-width: 90% !important;
+		margin: 0 auto !important;
+	}
+}
 
 
