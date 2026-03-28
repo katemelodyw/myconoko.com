@@ -3447,14 +3447,15 @@ form textarea {
 
 
 .logo-small {
-	text-align: center;
-	margin: 0.5em auto;   /* centers block + reduces spacing */
+	width: 100% !important;
+	text-align: center !important;
+	margin: 0.5em auto !important;
 }
 
 .logo-small img {
-	height: 60px;      /* controls visual size */
-	width: auto;
-	max-width: 230px;  /* caps width nicely */
-	display: block;
-	margin: 0 auto;
+	width: 220px !important;
+	height: auto !important;
+	max-width: none !important;
+	display: block !important;
+	margin: 0 auto !important;
 }
