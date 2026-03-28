@@ -3459,3 +3459,11 @@ form textarea {
 	display: block !important;
 	margin: 0 auto !important;
 }
+'
+
+#main .image.featured img {
+	width: 70% !important;   /* 100% → 70% = 30% smaller */
+	height: auto !important;
+	margin: 0 auto;          /* centers the image */
+	display: block;
+}
