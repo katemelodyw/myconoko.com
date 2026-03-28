@@ -3453,11 +3453,12 @@ form textarea {
 
 .logo-small {
 	text-align: center;
-	margin: 1em 0 0.5em 0;
+	margin: 0.5em auto;   /* centers block + reduces spacing */
 }
 
 .logo-small img {
-	height: 40px;
+	height: 24px;         /* 🔽 smaller (try 20–30px range) */
 	width: auto;
-	display: inline-block;
+	display: block;       /* ensures true centering */
+	margin: 0 auto;       /* centers image */
 }
