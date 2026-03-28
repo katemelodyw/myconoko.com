@@ -3451,3 +3451,13 @@ form textarea {
 	margin: 0 auto;
 }
 
+.logo-small {
+	text-align: center;
+	margin: 1em 0 0.5em 0;
+}
+
+.logo-small img {
+	height: 40px;
+	width: auto;
+	display: inline-block;
+}
