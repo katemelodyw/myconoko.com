@@ -3457,8 +3457,8 @@ form textarea {
 }
 
 .logo-small img {
-	height: 24px;         /* 🔽 smaller (try 20–30px range) */
+	height: 36px;   /* 24 × 1.5 = 36 */
 	width: auto;
-	display: block;       /* ensures true centering */
-	margin: 0 auto;       /* centers image */
+	display: block;
+	margin: 0 auto;
 }
