@@ -3334,10 +3334,12 @@ form textarea {
 }
 
 /* Promo section */
-#promo h2,
-#promo p,
-#promo .button {
-	font-family: 'Inter', sans-serif !important;
+#promo h2 {
+	color: #fff !important;
+	display: block!important;        
+	margin-right: 0!important;        
+	margin-bottom: 0.5em!important;  
+	font-size: 1.75em!important;
 }
 
 /* Mobile tuning */
@@ -3442,4 +3444,10 @@ form textarea {
 	}
 }
 
+#logo img {
+	height: 40px;       /* controls size */
+	width: auto;
+	display: block;
+	margin: 0 auto;
+}
 
