@@ -3452,8 +3452,9 @@ form textarea {
 }
 
 .logo-small img {
-	height: 40px;  
+	height: 60px;      /* controls visual size */
 	width: auto;
+	max-width: 230px;  /* caps width nicely */
 	display: block;
 	margin: 0 auto;
 }
