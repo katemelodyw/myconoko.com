@@ -3442,9 +3442,4 @@ form textarea {
 	}
 }
 
-header > p,
-.major p,
-p[style*="color"],
-.subheading {
-	color: #3c200d !important;
-}
+
