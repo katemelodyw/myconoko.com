@@ -87,7 +87,9 @@ input, select, textarea {
 	}
 
 	body {
-		background: linear-gradient(135deg, #1F4B34, #F2A33A);
+	
+    background: linear-gradient(180deg, #F4EFEA 0%, #F2C777 60%, #F2A33A 100%);
+
 		font-family: 'Source Sans Pro', sans-serif;
 		font-weight: 300;
 		color: #52575c;
@@ -3469,4 +3471,6 @@ form textarea {
 	display: block;
 }
 
-
+body {
+    background: linear-gradient(180deg, #F4EFEA 0%, #F2C777 60%, #F2A33A 100%)!important;
+}
