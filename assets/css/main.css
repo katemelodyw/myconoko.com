@@ -87,7 +87,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #f5f7fa;
+		background: linear-gradient(135deg, #1F4B34, #F2A33A);
 		font-family: 'Source Sans Pro', sans-serif;
 		font-weight: 300;
 		color: #52575c;
