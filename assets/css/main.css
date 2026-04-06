@@ -3301,7 +3301,7 @@ button {
 /* Keep normal image behavior elsewhere */
 .image img {
 	display: block;
-	width: 100%;
+	width: 50%;
 	height: auto;
 }
 
