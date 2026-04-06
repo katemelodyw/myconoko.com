@@ -3300,9 +3300,10 @@ button {
 
 /* Keep normal image behavior elsewhere */
 .image img {
-	display: block;
-	width: 50%;
-	height: auto;
+    display: block;
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
 }
 
 /* Footer contact section */
