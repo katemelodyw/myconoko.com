@@ -3276,7 +3276,7 @@ button {
 	display: block;
 	width: 100%;
 	height: 100%;
-	object-fit: cover;
+	object-fit: contain;
 }
 
 /* Products page icon / uniform image blocks */
