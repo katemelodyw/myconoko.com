@@ -3473,15 +3473,7 @@ body {
     background: linear-gradient(180deg, #F4EFEA 0%, #F2C777 60%, #F2A33A 100%)!important;
 }
 
-/* Make header section match the simpler pages */
-#header-wrapper,
-.homepage #header-wrapper {
-	background: transparent !important;
-	background-image: none !important;
-	background-color: transparent !important;
-	padding: 3em 0 2em 0 !important;
-	text-align: center !important;
-}
+
 
 /* Mobile spacing */
 @media screen and (max-width: 736px) {
