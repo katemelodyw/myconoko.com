@@ -2112,10 +2112,10 @@ input, select, textarea {
 
 #promo-wrapper {
 	position: relative;
-	background-image: linear-gradient(180deg, rgba(244, 239, 234, 0.88), rgba(242, 199, 119, 0.88));
+	background-image: linear-gradient(135deg, #1F4B34 0%, #2A5A3E 45%, #5F8F73 100%);
 	background-size: cover;
 	background-position: center center;
-	color: #4A2E1A;
+	color: #ffffff;
 	text-align: center;
 	padding: 6em 0 6em 0;
 }
