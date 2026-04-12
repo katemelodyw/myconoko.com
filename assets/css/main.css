@@ -3514,3 +3514,13 @@ body {
 	margin: 0.5em auto !important;
 }
 
+.image-wrapper,
+.image-wrapper:before {
+    background: none !important;
+    box-shadow: none !important;
+}
+
+.image-wrapper:before {
+    display: none !important;
+}
+
