@@ -3641,3 +3641,31 @@ ul.actions a,
 #nav, #nav * {
 	pointer-events: auto;
 }
+
+
+@media screen and (max-width: 1024px) {
+
+	/* Bring nav above everything */
+	#nav {
+		position: relative;
+		z-index: 10005 !important;
+	}
+
+	#nav a {
+		pointer-events: auto !important;
+	}
+
+	/* Stop other elements blocking clicks */
+	.logo-small,
+	.image-wrapper,
+	.wrapper,
+	#header-wrapper {
+		pointer-events: none;
+	}
+
+	/* BUT keep nav clickable */
+	#nav, #nav * {
+		pointer-events: auto;
+	}
+
+}
