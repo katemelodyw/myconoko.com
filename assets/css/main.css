@@ -3461,6 +3461,12 @@ form textarea {
 	margin: 0 auto;
 }
 
+@media screen and (max-width: 480px) {
+	.logo-small img {
+		width: 120px !important;
+	}
+}
+
 #main .image.featured img {
 	width: 70% !important;   /* 100% → 70% = 30% smaller */
 	height: auto !important;
