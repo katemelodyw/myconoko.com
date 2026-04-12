@@ -3598,3 +3598,46 @@ ul.actions a,
 #header-wrapper #nav * {
 	pointer-events: auto;
 }
+
+@media screen and (max-width: 1024px) {
+
+	/* Hide desktop nav */
+	#nav > ul {
+		display: none !important;
+	}
+
+	/* Make sure mobile menu button shows */
+	#navButton {
+		display: block !important;
+	}
+
+}
+
+#navPanel {
+	z-index: 10010 !important;
+}
+
+#navButton {
+	z-index: 10011 !important;
+	position: fixed !important;
+}
+
+#nav {
+	position: relative;
+	z-index: 10005 !important;
+}
+
+#nav a {
+	pointer-events: auto !important;
+}
+
+.logo-small,
+.image-wrapper,
+.wrapper,
+#header-wrapper {
+	pointer-events: none;
+}
+
+#nav, #nav * {
+	pointer-events: auto;
+}
