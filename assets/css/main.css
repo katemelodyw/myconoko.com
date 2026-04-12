@@ -2552,7 +2552,7 @@ input, select, textarea {
 
 /* Narrower */
 
-	@media screen and (max-width: 820px) {
+	@media screen and (max-width: 1024px)
 
 		/* Basic */
 
@@ -3566,3 +3566,8 @@ ul.actions a,
 	z-index: 10003 !important;
 }
 
+@media screen and (max-width: 1024px) {
+	#nav > ul {
+		display: none;
+	}
+}
