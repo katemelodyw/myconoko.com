@@ -3644,3 +3644,28 @@ ul.actions a,
 .form-section iframe {
 	pointer-events: auto !important;
 }
+
+/* Fix iframe scroll issue (Tally form) */
+iframe {
+	display: block !important;
+	width: 100% !important;
+	height: 650px !important;
+	border: none !important;
+	pointer-events: auto !important;
+}
+
+/* Ensure form section is interactive */
+section,
+.wrapper,
+#page-wrapper,
+#content {
+	pointer-events: auto !important;
+}
+
+/* Prevent overlays from blocking interactions */
+.image-wrapper:before,
+.image-wrapper:after,
+.wrapper:before,
+.wrapper:after {
+	pointer-events: none !important;
+}
