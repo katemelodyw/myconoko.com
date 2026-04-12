@@ -3454,13 +3454,12 @@ form textarea {
 }
 
 .logo-small img {
-	width: 220px !important;
+	width: 154px !important;
 	height: auto !important;
-	max-width: none !important;
-	display: block !important;
-	margin: 0 auto !important;
+	max-width: 100%;
+	display: block;
+	margin: 0 auto;
 }
-'
 
 #main .image.featured img {
 	width: 70% !important;   /* 100% → 70% = 30% smaller */
