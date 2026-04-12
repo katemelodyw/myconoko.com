@@ -3571,3 +3571,30 @@ ul.actions a,
 		display: none;
 	}
 }
+
+#nav {
+	position: relative !important;
+	z-index: 10005 !important;
+}
+
+#nav ul,
+#nav li,
+#nav a {
+	position: relative;
+	z-index: 10006 !important;
+	pointer-events: auto !important;
+}
+
+#header-wrapper,
+.logo-small,
+.logo-small img,
+.wrapper,
+.image-wrapper,
+.image-wrapper:before {
+	pointer-events: none;
+}
+
+#header-wrapper #nav,
+#header-wrapper #nav * {
+	pointer-events: auto;
+}
