@@ -3529,3 +3529,40 @@ body {
     display: none !important;
 }
 
+/* Make sure buttons/links can actually be tapped */
+.button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+a.button,
+ul.actions a,
+.actions .button {
+	position: relative;
+	z-index: 5;
+	pointer-events: auto;
+}
+
+/* Disable common invisible overlays */
+.image-wrapper:before,
+.image-wrapper:after,
+.wrapper:before,
+.wrapper:after,
+#header-wrapper:before,
+#header-wrapper:after,
+#promo-wrapper:before,
+#promo-wrapper:after {
+	pointer-events: none !important;
+}
+
+/* Prevent header/logo area from blocking content */
+.logo-small,
+.logo-small img {
+	position: relative;
+	z-index: 1;
+	max-width: 100%;
+}
+
+#navButton {
+	z-index: 10003 !important;
+}
+
