@@ -3542,17 +3542,6 @@ ul.actions a,
 	pointer-events: auto;
 }
 
-/* Disable common invisible overlays */
-.image-wrapper:before,
-.image-wrapper:after,
-.wrapper:before,
-.wrapper:after,
-#header-wrapper:before,
-#header-wrapper:after,
-#promo-wrapper:before,
-#promo-wrapper:after {
-	pointer-events: none !important;
-}
 
 /* Prevent header/logo area from blocking content */
 .logo-small,
@@ -3585,14 +3574,7 @@ ul.actions a,
 	pointer-events: auto !important;
 }
 
-#header-wrapper,
-.logo-small,
-.logo-small img,
-.wrapper,
-.image-wrapper,
-.image-wrapper:before {
-	pointer-events: none;
-}
+
 
 #header-wrapper #nav,
 #header-wrapper #nav * {
@@ -3631,12 +3613,7 @@ ul.actions a,
 	pointer-events: auto !important;
 }
 
-.logo-small,
-.image-wrapper,
-.wrapper,
-#header-wrapper {
-	pointer-events: none;
-}
+
 
 #nav, #nav * {
 	pointer-events: auto;
@@ -3655,17 +3632,15 @@ ul.actions a,
 		pointer-events: auto !important;
 	}
 
-	/* Stop other elements blocking clicks */
-	.logo-small,
-	.image-wrapper,
-	.wrapper,
-	#header-wrapper {
-		pointer-events: none;
-	}
+
 
 	/* BUT keep nav clickable */
 	#nav, #nav * {
 		pointer-events: auto;
 	}
 
+}
+
+.form-section iframe {
+	pointer-events: auto !important;
 }
