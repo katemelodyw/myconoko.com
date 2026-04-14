@@ -3669,3 +3669,7 @@ section,
 .wrapper:after {
 	pointer-events: none !important;
 }
+
+#logo {
+	display: none !important;
+}
