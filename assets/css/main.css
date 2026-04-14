@@ -3275,8 +3275,8 @@ button {
 .row .feature .image-wrapper .image img {
 	display: block;
 	width: 100%;
-	height: 100%;
-	object-fit: contain;
+	height: 250px; /* fixed height */
+	object-fit: cover;
 }
 
 /* Products page icon / uniform image blocks */
@@ -3672,4 +3672,8 @@ section,
 
 #logo {
 	display: none !important;
+}
+
+.image-wrapper {
+	overflow: hidden;
 }
