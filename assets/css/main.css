@@ -1824,8 +1824,8 @@ input, select, textarea {
 		text-align: center;
 	}
 
-		ul.actions.major {
-			text-align: center !important;
+		 {
+			text-align: center;
 		}
 
 		ul.actions li {
