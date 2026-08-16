@@ -3679,38 +3679,62 @@ section,
 }
 
 /* Larger text across the site */
+html {
+  font-size: 17px !important;
+}
+
 body,
+p,
+li,
+a,
 input,
 textarea,
-select {
+select,
+button,
+.button {
   font-size: 17px !important;
-  line-height: 1.65em !important;
+  line-height: 1.65 !important;
 }
 
-h1 { font-size: 2.5em !important; }
-h2 { font-size: 2em !important; }
-h3 { font-size: 1.45em !important; }
+h1 {
+  font-size: 42px !important;
+}
 
-/* Tablet and mobile */
+h2 {
+  font-size: 34px !important;
+}
+
+h3 {
+  font-size: 25px !important;
+}
+
+/* Phone and tablet */
 @media screen and (max-width: 736px) {
-  body,
-  input,
-  textarea,
-  select {
+  html {
     font-size: 16px !important;
   }
-	
-	h1 { font-size: 2.15em !important; }
-  h2 { font-size: 1.75em !important; }
-  h3 { font-size: 1.35em !important; }
-}
 
-/* Smaller mobile screens */
-@media screen and (max-width: 480px) {
   body,
+  p,
+  li,
+  a,
   input,
   textarea,
-  select {
-    font-size: 15px !important;
+  select,
+  button,
+  .button {
+    font-size: 16px !important;
+  }
+
+  h1 {
+    font-size: 34px !important;
+  }
+
+  h2 {
+    font-size: 28px !important;
+  }
+
+  h3 {
+    font-size: 22px !important;
   }
 }
