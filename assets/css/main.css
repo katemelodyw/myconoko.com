@@ -3739,3 +3739,13 @@ h3 {
     font-size: 22px !important;
   }
 }
+
+.compact-divider {
+  border: 0;
+  border-top: 1px solid #c2c7cc;
+  margin: 1em 0;
+}
+
+.problem-wrapper {
+  padding-top: 2em !important;
+}
