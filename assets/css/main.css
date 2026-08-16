@@ -3750,35 +3750,29 @@ h3 {
   padding-top: 2em !important;
 }
 
-/* Global vertical spacing: desktop */
+/* GLOBAL SECTION SPACING — KEEP AS FINAL CSS RULES */
 .wrapper,
-#promo-wrapper,
-#footer-wrapper {
-  padding-top: 3em !important;
-  padding-bottom: 3em !important;
+.promo-wrapper,
+.footer-wrapper {
+  padding: 2em 0 !important;
 }
 
-/* Tablet */
 @media screen and (max-width: 1080px) {
   .wrapper,
-  #promo-wrapper,
-  #footer-wrapper {
-    padding-top: 2.5em !important;
-    padding-bottom: 2.5em !important;
+  .promo-wrapper,
+  .footer-wrapper {
+    padding: 1.75em 2em !important;
   }
 }
 
-/* Mobile */
 @media screen and (max-width: 736px) {
   .wrapper,
-  #promo-wrapper,
-  #footer-wrapper {
-    padding-top: 2em !important;
-    padding-bottom: 2em !important;
+  .promo-wrapper,
+  .footer-wrapper {
+    padding: 1.5em 20px !important;
   }
 }
 
-/* Compact visible horizontal rules */
 hr {
-  margin: 0.5em 0 !important;
+  margin: 0.25em 0 !important;
 }
