@@ -3677,3 +3677,40 @@ section,
 .image-wrapper {
 	overflow: hidden;
 }
+
+/* Larger text across the site */
+body,
+input,
+textarea,
+select {
+  font-size: 17px !important;
+  line-height: 1.65em !important;
+}
+
+h1 { font-size: 2.5em !important; }
+h2 { font-size: 2em !important; }
+h3 { font-size: 1.45em !important; }
+
+/* Tablet and mobile */
+@media screen and (max-width: 736px) {
+  body,
+  input,
+  textarea,
+  select {
+    font-size: 16px !important;
+  }
+	
+	h1 { font-size: 2.15em !important; }
+  h2 { font-size: 1.75em !important; }
+  h3 { font-size: 1.35em !important; }
+}
+
+/* Smaller mobile screens */
+@media screen and (max-width: 480px) {
+  body,
+  input,
+  textarea,
+  select {
+    font-size: 15px !important;
+  }
+}
