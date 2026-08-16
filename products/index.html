@@ -60,34 +60,16 @@
 						<hr />
 
 	<iframe
- 		data-tally-src="https://tally.so/embed/pbqqM1?alignLeft=1&transparentBackground=1&dynamicHeight=1"
+ 		src="https://tally.so/embed/pbqqM1?alignLeft=1&transparentBackground=1"
   		loading="lazy"
   		width="100%"
-  		height="200"
+  		height="6500"
  		frameborder="0"
   		marginheight="0"
   		marginwidth="0"
   		title="Myconoko Order Form"
   		style="border: none; display: block;">
 	</iframe>
-	<script>
-  		var d = document;
-  		var w = "https://tally.so/widgets/embed.js";
- 		var v = function () {
-    		if (typeof Tally !== "undefined") {
-      	Tally.loadEmbeds();
-    		}
-  		};
-
-  			if (typeof Tally !== "undefined") {
-    	v();
-  		} else {
-    	var s = d.createElement("script");
-    	s.src = w;
-    	s.onload = v;
-    	d.body.appendChild(s);
-  		}
-	</script>
 
 						<h3>Smart Mobile Mushroom Farm - The Mushroom Loft</h3>
 						<p>
@@ -282,7 +264,9 @@
 			</div>
 
 		</div>
-
+		
+		<script src="https://tally.so/widgets/embed.js"></script>
+		
 		<script>
 			const form = document.getElementById("contact-form");
 			const status = document.getElementById("form-status");
