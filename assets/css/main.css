@@ -1821,10 +1821,11 @@ input, select, textarea {
 		padding-top: 1em;
 		list-style: none;
 		padding-left: 0;
+		text-align: center;
 	}
 
 		ul.actions.major {
-			text-align: center;
+			text-align: center !important;
 		}
 
 		ul.actions li {
@@ -3015,7 +3016,7 @@ input, select, textarea {
 				}
 
 			ul.actions.major {
-				text-align: left !important;
+				text-align: center !important;
 			}
 
 		/* Form */
