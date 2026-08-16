@@ -3649,13 +3649,13 @@ ul.actions a,
 	pointer-events: auto !important;
 }
 
-/* Fix iframe scroll issue (Tally form) */
-iframe {
-	display: block !important;
-	width: 100% !important;
-	height: 650px !important;
-	border: none !important;
-	pointer-events: auto !important;
+/* Tally form: let Tally control its own height */
+.form-section iframe.tally-embed {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  border: none;
+  pointer-events: auto;
 }
 
 /* Ensure form section is interactive */
