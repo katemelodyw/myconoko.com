@@ -3228,6 +3228,9 @@ button {
 	font-weight: 500 !important;
 	font-size: 0.95em !important;
 	padding: 0.75em 1.6em !important;
+	background-color: #F0B357 !important;
+	color: #FFFFFF !important;
+	border-color: #1F4B34 !important;
 }
 
 /* Long-form pages only: about/news/products article text */
