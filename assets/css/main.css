@@ -2009,8 +2009,8 @@ input, select, textarea {
 		-ms-transition: color 0.25s ease-in-out, border-color 0.25s ease-in-out, background-color 0.25s ease-in-out;
 		transition: color 0.25s ease-in-out, border-color 0.25s ease-in-out, background-color 0.25s ease-in-out;
 		display: inline-block;
-		color: inherit;
-		background: none;
+		color: #FFFFFF;
+		background: #F0B357;
 		text-decoration: none;
 		border: solid 1px #c2c7cc;
 		border-radius: 0.35em;
