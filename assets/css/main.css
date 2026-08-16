@@ -3257,8 +3257,9 @@ button {
 .feature h3,
 .feature .actions {
 	max-width: none !important;
-	margin-left: 0 !important;
-	margin-right: 0 !important;
+	margin-left: auto !important;
+  	margin-right: auto !important;
+  	text-align: center !important;
 }
 
 /* Homepage feature image sizing */
