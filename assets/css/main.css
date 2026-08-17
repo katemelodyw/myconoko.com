@@ -3556,7 +3556,7 @@ ul.actions a,
 	z-index: 10003 !important;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 736px) {
 	#nav > ul {
 		display: none;
 	}
@@ -3582,7 +3582,7 @@ ul.actions a,
 	pointer-events: auto;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 736px) {
 
 	/* Hide desktop nav */
 	#nav > ul {
@@ -3621,7 +3621,7 @@ ul.actions a,
 }
 
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 736px) {
 
 	/* Bring nav above everything */
 	#nav {
