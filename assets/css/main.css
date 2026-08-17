@@ -1871,8 +1871,8 @@ input, select, textarea {
 
 			ul.icons li:before {
 				display: inline-block;
-				color: #fff;
-				background: #61666b;
+				color: #61666b;
+				background: #FFFFFF;
 				width: 2.5em;
 				height: 2.5em;
 				border-radius: 0.35em;
