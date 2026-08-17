@@ -2353,16 +2353,16 @@ input, select, textarea {
 		}
 
 		#promo .button {
-			background: #fff;
-			border-color: rgba(255, 255, 255, 0);
-			color: #27636B;
+			background: #fff !important;
+			border-color: rgba(255, 255, 255, 0) !important;
+			color: #27636B !important;
 			font-size: 1.25em;
 		}
 
 			#promo .button:hover {
-				border-color: rgba(255, 255, 255, 0.75);
-				background-color: rgba(255, 255, 255, 0.15);
-				color: #fff;
+				border-color: rgba(255, 255, 255, 0.75) !important;
+				background-color: rgba(255, 255, 255, 0.15) !important;
+				color: #fff !important;
 			}
 
 /* Main */
