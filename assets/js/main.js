@@ -63,3 +63,21 @@
 				});
 
 })(jQuery);
+
+function updateNavPanelHeight() {
+  var navPanel = document.getElementById('navPanel');
+
+  if (navPanel) {
+    document.documentElement.style.setProperty(
+      '--nav-panel-height',
+      navPanel.offsetHeight + 'px'
+    );
+  }
+}
+
+window.addEventListener('load', updateNavPanelHeight);
+window.addEventListener('resize', updateNavPanelHeight);
+
+document.addEventListener('click', function () {
+  setTimeout(updateNavPanelHeight, 0);
+});
