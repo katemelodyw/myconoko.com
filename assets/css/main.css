@@ -3763,3 +3763,7 @@ h3 {
 hr {
   margin: 0.25em 0 !important;
 }
+
+html {
+  scroll-behavior: smooth;
+}
