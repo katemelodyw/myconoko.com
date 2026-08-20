@@ -3300,12 +3300,6 @@ button {
 }
 
 /* Keep normal image behavior elsewhere */
-.image img {
-    display: block;
-    width: 50%;
-    height: auto;
-    margin: 0 auto;
-}
 
 /* Footer contact section */
 #footer,
@@ -3466,13 +3460,6 @@ form textarea {
 	.logo-small img {
 		width: 120px !important;
 	}
-}
-
-#main .image.featured img {
-	width: 70% !important;   /* 100% → 70% = 30% smaller */
-	height: auto !important;
-	margin: 0 auto;          /* centers the image */
-	display: block;
 }
 
 body {
