@@ -21,7 +21,17 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="/assets/css/main.css" />
 
-		<style>
+<style>
+  .product-section,
+  .product-section h3,
+  .product-section p,
+  .product-section ul {
+    text-align: left !important;
+    max-width: none !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
   @media screen and (max-width: 480px) {
     .product-inset-image {
       float: none !important;
@@ -96,8 +106,10 @@
 
 						<!-- Product Catalogue -->
 
-						<div class="row features">
-							<h2>Product Catalogue (Under Construction)</h2>
+<h2 style="text-align: left; max-width: none; margin-left: 0; margin-right: 0;">
+							Product Catalogue (Under Construction)
+</h2>
+												<div class="row features">
   <section class="col-4 col-12-narrower feature">
     <div class="image-wrapper first">
       <a href="#home-kit" class="image featured">
@@ -137,9 +149,8 @@
 </div>
 						
 <!-- Mushroom Home Kit -->
-<section style="text-align: left;">
-
-  <h3 id="home-kit" style="text-align: left;">
+<section class="product-section">
+  <h3 id="home-kit">
     Mushroom Home Kit
   </h3>
 
@@ -205,9 +216,8 @@
 </section>
 
 <!-- TremellaGO -->
-<section style="text-align: left;">
-
-  <h3 id="tremella-go" style="text-align: left;">
+<section class="product-section">
+  <h3 id="tremella-go">
     TremellaGO Instant Snow Fungus Shake
   </h3>
 
@@ -218,9 +228,8 @@
 </section>
 
 <!-- Potent Fungi -->
-<section style="text-align: left;">
-
-  <h3 id="potent-fungi" style="text-align: left;">
+<section class="product-section">
+  <h3 id="potent-fungi">
     Potent Fungi Mushroom Tinctures &amp; Concentrates
   </h3>
 
