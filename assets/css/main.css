@@ -3680,6 +3680,8 @@ h1 {
 
 h2 {
   font-size: 34px !important;
+line-height: 1.2em !important;
+  margin-bottom: 0.65em !important;
 }
 
 h3 {
