@@ -3760,3 +3760,11 @@ hr {
 html {
   scroll-behavior: smooth;
 }
+
+figcaption {
+  font-family: 'Inter', sans-serif !important;
+  font-size: 14px !important;
+  line-height: 1.4 !important;
+  font-weight: 400 !important;
+  color: #666 !important;
+}
